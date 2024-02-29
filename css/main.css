@@ -484,6 +484,12 @@ input[type=button] {
 
   /* Hero Area  */
 
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 48px;
+    margin: 0;
+  }
+
   /* Aside  */
   aside .content-wrapper {
     margin: 50px 0;
@@ -497,6 +503,11 @@ input[type=button] {
     margin: 0;
   }
 
+  aside h3 {
+    font-size: 1.5em;
+    line-height: 30px;
+  }
+
   /* Features  */
   .features article {
     display: flex;
@@ -506,7 +517,13 @@ input[type=button] {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
+  }
+
+  .features h2 {
+    font-size: 2.25em;
+    line-height: 48px;
+    margin-bottom: 20px;
   }
 
   /* Reviews  */
@@ -517,6 +534,19 @@ input[type=button] {
   
   .reviews article div {
       width: 49%; 
+  }
+
+  .reviews h2 {
+    font-size: 2.25em;
+    line-height: 48px;
+    width: 80%;
+    margin: 0;
+  }
+
+  .reviews h3 {
+    font-size: 1.5em;
+    line-height: 30px;
+    width: 100%;
   }
 
   /* Footer  */
@@ -538,6 +568,14 @@ input[type=button] {
     width: 100%;
   }
 
+  footer h4 {
+    font-size: 1.5em;
+  }
+
+  footer p {
+    line-height: 18px;
+  }
+
   /* ======================== About Page ====================================== */
  
    .mission-content {
@@ -546,12 +584,19 @@ input[type=button] {
     align-items: center;
   }
 
+  .mission h2 {
+    font-size: 2.25em;
+    line-height: 48px;
+  }
+
   .mission-content p {
       width: 45%;
   }
 
   .contact-section .content-wrapper h2 {
       width: 80%;
+      font-size: 2.25em;
+      line-height: 48px;
   }
 
   .contact-content {
@@ -572,6 +617,18 @@ input[type=button] {
 
 .faq h2 {
     width: 100%;
+    font-size: 2.25em;
+    line-height: 48px;
+  }
+
+  .faq h4 {
+    font-size: 0.875em;
+    line-height: 15.75px;
+  }
+
+  .faq p {
+    font-size: 0.875em;
+    line-height: 15.75px;
   }
   
 }
@@ -582,20 +639,35 @@ input[type=button] {
     max-width: 960px;
   }
 
+  p {
+    font-size: 1.125em;
+    line-height: 24px;
+  }
+
   /* Header  */
   header {
     padding: 15px 0;
   }
 
+  /* Footer  */
+  .contact h4, .social h4 {
+    font-size: 1.875em;
+  }
+
   /* Hero */
   .hero-area h1 {
    width: 80%;
+   font-size: 3.75em;
   }
 
 
   /* Aside  */
   aside .content-wrapper {
     justify-content: space-around;
+  }
+
+  aside h3 {
+    font-size: 1.875em;
   }
 
 
@@ -606,6 +678,7 @@ input[type=button] {
   /* Features  */
   .features h2 {
     width: 90%;
+    font-size: 2.25em;
   }
 
   .features article {
@@ -617,18 +690,39 @@ input[type=button] {
       width: 42%;
   }
 
+  .reviews h2 {
+    font-size: 2.25em;
+  }
+
+  .reviews h3 {
+    width: 50%;
+    font-size: 1.875em;
+    width: 75%;
+  }
+
 
   /* ======================== About Page ====================================== */
 
   .mission h2, .contact-section .content-wrapper h2 {
       width: 95%;
+      font-size: 3em;
+  }
+
+  .contact-section .content-wrapper h4 {
+    font-size: 1.875em;
   }
 
   /* ======================== FAQ Page ======================================== */
 
   .faq h2 {
     width: 100%;
-}
+    font-size: 3em;
+  }
+
+  .faq h4, .faq p {
+    font-size: 1.125em;
+    line-height: 18px;
+  }
 
 }
 
