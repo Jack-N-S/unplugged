@@ -230,6 +230,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #527158;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -613,6 +621,12 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .contact {
