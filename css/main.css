@@ -735,6 +735,7 @@ input[type=button] {
   .hero-area h1 {
    width: 80%;
    font-size: 3.75em;
+   line-height: 1em;
   }
 
 
